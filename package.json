@@ -1,0 +1,25 @@
+{
+  "name": "spaceapps-challenge-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oralekin/spaceapps-challenge-2019.git"
+  },
+  "author": "PhoeniX",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/oralekin/spaceapps-challenge-2019/issues"
+  },
+  "homepage": "https://github.com/oralekin/spaceapps-challenge-2019#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "satellite.js": "^3.0.1",
+    "socket.io": "^2.3.0"
+  }
+}
