@@ -50,6 +50,7 @@ debrisSchema.methods.asResponseString = function() {
 
 debrisSchema.methods.setEaten = function() {
   this.exists = false;
+  // this.save();
 }
 
 module.exports = mongoose.model("Debris", debrisSchema);
